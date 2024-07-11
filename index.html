@@ -302,7 +302,7 @@
                 </div>
             </div>
             <div class="col-md-6 mt-3 mb-3">
-                <h3 class="text-light">Birds Of Sadness</h3>
+                <h3 class="text-light">Blade OF Sadness</h3>
                 <p class="text-light">
                     Welcome to our Guild! We are a diverse and dynamic community of gamers, united by our passion for gaming and our commitment to excellence. Our guild was founded by Sho and Chow with the mission to create a supportive and inclusive environment where members can thrive, share their experiences, and achieve their gaming goals together.
                 </p>
@@ -446,13 +446,85 @@
     <!---LAYOPUTs-->
     <div class="modal fade" id="guildLayout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content" style="overflow-y: auto; height: 600px;">
                 <div class="modal-header border-0">
                     <h5 class="modal-title text-light" id="exampleModalLabel">
                         Guild Events
                     </h5>
                 </div>
-                <div class="modal-body text-light text-center">No Events</div>
+                <div class="modal-body text-light text-center" >
+                    <div class="accordion" id="resourcesAccordion">
+                        
+                        <div class="row">
+                            <div class="col-md-12 mt-2">
+                                <div class="card  border-0" id="button">
+                                    <div class="card-header border-0" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <h5><b>Hide n Seek</b></h5>
+                                            <button class="btn btn-block text-muted text-center "  type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <i class="fas fa-list"></i><b class="ml-2"><u>See Details</u></b>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#resourcesAccordion">
+                                        <div class="card-body" style="border-top: 1px solid black;">
+                                            <img src="./img/hidenseek.jpg" alt="Serxe Graal" width="100%" height="100%" style="border-radius: 5px; height: 300px;">
+                                            <p class="text-light" >In Hide and Seek, one player hides somewhere on the map, and the other members must find them. Who ever finds him will win the event.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-2 border-0" id="button">
+                                    <div class="card-header border-0" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <h5><b>1v1 Spar</b></h5>
+                                            <button class="btn btn-link btn-block text-muted text-center"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                                <i class="fas fa-list"></i><b class="ml-2"><u>See Details</u></b>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#resourcesAccordion">
+                                        <div class="card-body" style="border-top: 1px solid black;">
+                                            <img src="./img/sparring.jpg" alt="Serxe Graal" width="100%" height="100%" style="border-radius: 5px; height: 300px;">
+                                            <p class="text-light">In Guild Spar, players engage in 1v1 battles against members of the same guild. Whoever survives wins.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-2 border-0" id="button">
+                                    <div class="card-header border-0" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <h5><b>Pop Quiz</b></h5>
+                                            <button class="btn btn-link btn-block text-muted text-center"  type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                                <i class="fas fa-list"></i><b class="ml-2"><u>See Details</u></b>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#resourcesAccordion">
+                                        <div class="card-body" style="border-top: 1px solid black;">
+                                            <img src="./img/popquiz.jpg" alt="Serxe Graal" width="100%" height="100%" style="border-radius: 5px; height: 300px;">
+                                            <p class="text-light">In Pop Quiz, players must answer questions related to the game to complete the challenge. The first person to answer all the questions wins.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-2 border-0" id="button">
+                                    <div class="card-header border-0" id="headingFour">
+                                        <h2 class="mb-0">
+                                            <h5><b>Fashion Show</b></h5>
+                                            <button class="btn btn-link btn-block text-muted text-center"  type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                                <i class="fas fa-list"></i><b class="ml-2"><u>See Details</u></b>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#resourcesAccordion">
+                                        <div class="card-body" style="border-top: 1px solid black;">
+                                            <img src="./img/easter.jpg" alt="Serxe Graal" width="100%" height="100%" style="border-radius: 5px; height: 300px;">
+                                            <p class="text-light">In Fashion Show, players must dress according to the given theme set by the host. Creativity and attention to detail are key as players showcase their outfits. The host and possibly other members will judge the participants based on how well they adhere to the theme and their overall style.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="modal-footer border-0">
                     <button type="button" class="btn" id="button" style="border: 1px solid rgb(255, 255, 255); color: white" data-dismiss="modal">
                         Close
@@ -532,12 +604,7 @@
     
     
     <!---->
-    <script>
-        // Disable right-click
-        document.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        });
-    </script>
+    
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
